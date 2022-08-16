@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+export GOOS=darwin
+export GOARCH=amd64
+
+cd goroot/src
+
+# all will run the tests
+# ./all.bash
+
+./make.bash
+
